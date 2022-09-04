@@ -1,0 +1,147 @@
+/* font import */
+
+/* Import Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* init and resets*/
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding:  0;
+    box-sizing: border-box;
+    vertical-align: top;
+    outline: 0;
+    /* outline: red 1px dashed; */
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto';
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    min-width: 30rem;
+    max-width: 100rem;
+    background-color: lightgray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    height: 8rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+input {
+    height: 2.5rem;
+    width: 20rem;
+    border: solid 2px black;
+}
+
+nav .btn {
+    font-size: 1.4rem;
+    height: 2.5rem;
+    width: 7rem;
+    color: white;
+    margin-left: 20px;
+    background-color: #2B78E4;
+    border: solid 2px black;
+    box-shadow: .3rem .3rem black;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 100rem;
+    gap: 2rem;
+    margin-top: 3rem;
+
+}
+
+.col1 {
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.col2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.col1 .btn {
+    font-size: 1.4rem;
+    height: 2.5rem;
+    width: 7rem;
+    color: black;
+    background-color: #FFD966;
+    border: solid 2px black;
+    box-shadow: .3rem .3rem black;
+}
+
+.col2 .btn {
+    font-size: 1.4rem;
+    height: 2.5rem;
+    min-width: 10rem;
+    color: black;
+    margin-left: 20px;
+    background-color: #93C47D;
+    border: solid 2px black;
+    box-shadow: .3rem .3rem black;
+}
+
+.row {
+    display: flex;
+    border: solid 2px black;
+}
+
+.subCol1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin: 2rem;
+}
+
+.subCol2 {
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    gap: 1rem;
+    /* align-items: center; */
+    margin: 2rem;
+}
+
+.col2 .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+.btn:hover {
+    background-color: steelblue;
+}
+
+.btn:active {
+    box-shadow: none;
+    transform: translateY(.3rem);
+}
