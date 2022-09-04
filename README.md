@@ -8,3 +8,6 @@ This is an assignment completed for Coding Dojo focused on practicing front-end 
 * I used `parseInt()` to grab the text of the like button, and iterated it up with each button click.
 * I added a very brief `setTimeout` before the alert is executed so that the "likes" iterate before displaying the alert.
 * I made the Logout / Login a switch that could go back and forth so that it can be clicked ad-infinitum.
+
+## I was given this wireframe as a reference:
+<img src="./img/ref.png" height="750">
